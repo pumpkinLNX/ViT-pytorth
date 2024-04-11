@@ -1,5 +1,5 @@
 # ViT-pytorth
-A model of vision transformer for image classification with pre-trained parameters. It runs in pytorch.
+A model of vision transformer for image classification with pre-trained parameters. It is run in pytorch.
 
 Firstly run 'train.py' to fine tune the ViT parameters, with your own training data by modifing the statement 'file_path =' in line 16. Before doing this, make sure that you have pre-trained parameters for ViT (you can find and download them from website, e.g., https://drive.google.com/drive/folders/1azgrD1P413pXLJME0PjRRU-Ez-4GWN-S), and modify the statement 'weight_path = ' in line 17 according to the path where you have saved the pre-trained parameter files. The training process allows you to save the fine tuned parameters in a path specified by the statement 'save_path =' in line 18.
 
